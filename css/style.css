@@ -1,14 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
 
 html, body {
-  height: 1395px;
+  height: 100%;
   width: 800px;
   min-height: 100%;
 }
 
 body {
   background: url(../images/backgrounds/architecture.jpg) center;
-  background-size: cover;
+  background-size: contain;
+  background-color: black;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
